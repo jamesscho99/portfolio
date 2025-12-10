@@ -7,7 +7,7 @@
         <h1>조현서</h1>
         <div class="contact-info">
           <p>📧 james.hyunseo@gmail.com</p>
-          <p>📞 +82-10-0000-0000</p>
+          <p>📞 +82-10-9068-7459</p>
           <p>💻 
             <a href="https://github.com/jamesscho99" target="_blank">
               github.com/jamesscho99
