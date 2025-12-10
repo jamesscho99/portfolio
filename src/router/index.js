@@ -5,6 +5,7 @@ import About from "../components/About.vue";
 import Contact from "../components/Contact.vue";
 import Projects from "../components/Projects.vue";
 import Resume from "../components/Resume.vue";
+import StudyPlan from "../components/Study_Plan.vue"
 
 const routes = [
     {
@@ -27,6 +28,10 @@ const routes = [
         path:'/resume',
         component:Resume,
     },
+    {
+        path:'/study_plan',
+        component:StudyPlan,
+    }
 
 ];
 const router = createRouter({

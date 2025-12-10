@@ -16,7 +16,7 @@
           <ul>
             <li><router-link to="/about" :class="{ active: activeNav === 'about'}">About</router-link></li>
             <li><router-link to="/resume" :class="{ active: activeNav === 'resume'}">Resume</router-link></li>
-
+            <li><router-link to ="/study_plan":class="{active: activeNav === 'study_plan' }"></router-link></li>
             <li class="dropdown">
               <router-link to="/projects" :class="{ active: activeNav === 'projects'}">Projects</router-link>
               <ul class="dropdown-menu">
@@ -33,6 +33,7 @@
                 <li><a href="https://www.linkedin.com/in/james-cho-975a3332a" target="_blank">LinkedIn</a></li>
               </ul>
             </li>
+
           </ul>
         </nav>
       </div>
@@ -63,6 +64,7 @@ export default {
   setActiveNav(path) {
     if (path.includes('/about')) this.activeNav = 'about';
     else if (path.includes('/resume')) this.activeNav = 'resume';
+    else if (path.includes("/study_plan")) this.activeNav = "study_plan";
     else if (path.includes('/projects')) this.activeNav = 'projects';
     else if (path.includes('/contact')) this.activeNav = 'contact';
     else this.activeNav = 'home';
