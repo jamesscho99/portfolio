@@ -37,7 +37,7 @@ export default {
     return {
       sections: [
         {
-          title: '📄 자기소개 (Profile)',
+          title: '📄 자기소개 (Personality)',
           type: 'paragraphs',
           content: [
             '저는 조용하고 소심한 성격을 지녔지만, 상대방의 이야기를 주의 깊게 듣고 진심으로 공감하는 능력을 갖추고 있습니다. 경청을 통해 상대가 진정으로 말하고자 하는 바를 파악하는 데 능숙하며, 대화 흐름을 잘 읽고 반응할 수 있습니다.',
